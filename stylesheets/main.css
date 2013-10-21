@@ -1,0 +1,358 @@
+/* ==========================================================================
+
+  Authors: Maarten Bressinck and Jo Packer
+  Version: 1.0 
+  
+/* ==========================================================================
+/* -- Helper classes
+   ========================================================================== */
+.green{
+  color: #00b386;
+}
+
+.white{
+  color: #fff;
+}
+
+.light-grey{
+  color: #eaedf1;
+}
+.dark-grey{
+  color: #d8dce1;
+}
+
+.caption{
+  color: #db6e4c !important;
+}
+
+.content-section{
+  padding: 50px 0;
+}
+
+.btn-primary{
+  background: #00b386;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.4em;
+  text-transform:uppercase;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.btn-primary:hover{
+  background: #278872;
+  transition: all 0.3s; 
+  -moz-transition: all 0.3s; 
+  -ms-transition: all 0.3s; 
+  -o-transition: all 0.3s; 
+  -webkit-transition: all 0.3s;
+}
+
+.btn-primary .arrow-right{
+  background: url('../images/arrow-right.png') no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+a.brand {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.brand:hover {
+  text-decoration: none;
+}
+
+a.brand:focus {
+  outline: thin dotted;
+}
+
+a.brand:active, a:hover {
+  outline: 0;
+}
+
+
+/* ==========================================================================
+/* -- Header
+   ========================================================================== */
+#header{
+  background-image: url('../images/table-header.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#header h1 b{
+  font-weight: 400;
+}
+   
+#header #tagline{
+  display: table;
+  height: 590px;  
+}
+
+#header #tagline div{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#header #tagline div .alpha-container{
+  background: red;
+  width: 100%;
+  display: block;
+  background-color:rgba(31,31,31,0.5);
+}
+
+#header #tagline2{
+  display: table;
+  height: 266px;  
+}
+
+#header #tagline2 div{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#header #tagline2 div .alpha-container{
+  background: red;
+  width: 100%;
+  display: block;
+  background-color:rgba(31,31,31,0.5);
+}
+
+#header #brandlabel{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 14px;
+  font-size: 1.4em;
+  background-color: rgba(219, 110, 76, 0.9);
+  color: #fff;
+  font-weight: 100;
+}
+
+
+#header #brandlabel-univ{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 12px 20px;
+  font-size: 1.4em;
+  background-color: #000;
+  color: #fff;
+  font-weight: 100;
+}
+
+
+#header h1, #header h4{
+  color: #fff;
+}
+
+
+/* ==========================================================================
+/* -- Projects section
+   ========================================================================== */
+#showcase-section .four{
+  margin: 40px 0 35px 0;
+}
+
+#showcase-section img{
+  max-width: 100%;
+}
+
+
+/* ==========================================================================
+/* -- Introduction section
+   ========================================================================== */
+#introduction-section .four{
+  margin-top: 40px;
+}
+
+#introduction-section .four img{
+  max-width: 100%;
+}
+
+
+/* ==========================================================================
+/* -- Testimonial
+   ========================================================================== */
+#testimonial{
+  height: 378px;
+  background: url('../images/testimonialbackground.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#testimonial .container{
+  display: table;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#testimonial .quote{
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  background: url('../images/quoteicon.png') no-repeat left;
+  padding-left: 90px;
+  height: 340px;
+}
+
+#testimonial .quote cite{
+  font-weight: 100;
+}
+
+
+
+/* ==========================================================================
+/* -- Team
+   ========================================================================== */
+#team{
+  background: #40686a; 
+}
+
+#team h3{
+  margin: 14px 0 0 0;
+}
+
+#team .four{
+  margin-bottom: 20px;
+}
+
+#team img{
+  margin-right: 20px;
+}
+
+
+
+/* ==========================================================================
+/* -- Contact
+   ========================================================================== */
+#contact{
+  background: #40686a;
+}
+
+#contact .twelve{
+  text-align: center;
+}
+
+#contact .btn-primary{
+  
+  margin-bottom: 10px;
+}
+
+
+
+/* ==========================================================================
+/* -- Footer
+   ========================================================================== */
+#footer{
+  background: #313131;
+  text-align: center;
+  color: #fff;
+}
+
+#footer2{
+  background: #222222;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+#footer span{
+  display: block;
+  margin-bottom: 10px;
+}
+
+#footer h3{
+  color: #fff;
+}
+
+#footer .four{
+  margin-bottom: 40px;
+}
+
+#footer .row:first-of-type .four{
+  border-bottom: 1px solid #707070;
+  padding-bottom: 50px;
+}
+
+#footer .row:last-child .four{
+  margin-bottom: 0;
+}
+
+
+#footer img{
+  margin-bottom: 20px;
+}
+
+#footer a, #footer2 a{
+  color: #db6e4c;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+/* -- Tablet Devices (Layout, Modifications, etc)
+   ========================================================================== */
+@media only screen and (min-width: 740px) and (max-width: 999px) {
+ 
+ 
+}
+
+/* ==========================================================================
+/* -- Mobile Devices (Layout, Modifications, etc)
+   ========================================================================== */
+@media only screen and (max-width: 739px) {
+
+  /* Image scaling */
+  #introduction-section img, #showcase-section img{
+    min-width: 100%;
+  } 
+  
+  
+  /* Header */
+  #header, #header #tagline{
+    height: 420px;
+  }
+  
+  
+  /* Introduction section */
+  #introduction-section .four:first-child{
+    padding-top: 40px;
+  }
+  
+  
+  /* Testimonial */
+  #testimonial .quote{
+    background: none;
+    padding-left: 0;
+  }
+  
+  #testimonial .container{
+    width: 90%;
+  }
+  
+  
+  /* Portfolio */
+  #showcase-section h4{
+    padding-bottom: 20px;
+  }
+  
+}
+

@@ -1,0 +1,53 @@
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=tel], textarea {
+  font-weight: normal;
+}
+
+
+p.border-bottom {
+  padding-bottom: 30px;	
+  border-bottom: 1px solid #d8dce1;	
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+label>span {
+   display: inline;
+   padding-left: 10px;
+   text-transform: none;
+   font-weight: 200;
+}
+
+.microcopy {
+   text-transform: none;
+   font-weight: 200;	
+}
+
+input[type=submit] {
+  border: none;
+  background: #00b386;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.4em;
+  text-transform:uppercase;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.inline {
+  display: inline;
+  padding-left: 10px;
+}
